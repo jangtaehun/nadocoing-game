@@ -95,7 +95,7 @@ while running:
         character_x_pos = screen_width - character_width
 ########################################################################################## 키 이벤트
 
-    #무기 위치
+#무기 위치
     weapons = [ [w[0], w[1] - weapon_speed] for w in weapons] # 무기 위치를 위로 / 무기의 y값에 스피드값을 빼 무기를 위로 가게 만든다.
     weapons = [ [w[0], w[1]] for w in weapons if w[1] > 0] # 천장에 닿으면 없애기
 
